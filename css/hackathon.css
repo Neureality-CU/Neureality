@@ -310,6 +310,20 @@ text-shadow: 0 0 10px rgba(0,0,0,0.5);
   color:#fff;
 }
 
+.box_container .box .descrip {
+ font-size: 20px;
+  position: relative;
+  top: 20px;
+   opacity: 1;
+   transition:0.5s;
+  color:#fff;
+}
+
+.box_container .box:hover .descrip {
+opacity:0;
+  transform:translateY(-100px);
+  transition:0.5s;
+}
 
 
 
