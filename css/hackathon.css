@@ -225,6 +225,7 @@ text-shadow: 0 0 10px rgba(0,0,0,0.5);
 .box_container .box{
   position: relative;
   width:320px;
+  height: 300px;
   background:#1c1c1c;
   border-radius: 20px;
   padding: 100px 40px 60px;
@@ -273,6 +274,7 @@ text-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 .box_container .box h3{
   position: relative;
+  vertical-align: middle;
   font-size: 30px;
   z-index: 2;
   color:#fff;
@@ -280,16 +282,34 @@ text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 
-.box_container .box p{
-  position: relative;
+.box_container .box .list{
+  position: absolute;
+  top:90px;
+  left:50px;
+  text-align: left;
+  font-size: 20px;
   z-index: 2;
   color:#fff;
+  opacity:0;
   transition: 0.5s;
 }
 
-.box_container .box:hover h3,.box_container .box:hover p{
- color:#fff;
+.box_container .box .list li{
+  margin-right: 20px;
 }
+
+.box_container .box:hover h3 {
+ opacity:0;
+  transform:translateY(-100px);
+  transition:0.5s;
+}
+
+.box_container .box:hover .list{
+  opacity: 1;
+   transition:0.5s;
+  color:#fff;
+}
+
 
 
 
