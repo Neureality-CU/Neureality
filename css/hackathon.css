@@ -5,6 +5,7 @@ font-family: 'TheGoodMonolith', sans-serif;
 box-sizing: border-box;
 }
 
+
 .header{
   height: 20vh;
   width: 100%;
@@ -27,6 +28,11 @@ justify-content: space-between;
   display: flex;
   justify-content: space-between;
   margin: 2%;
+}
+a{
+  text-decoration: none;
+  color: white;
+
 }
 
 .logo .neureality{
