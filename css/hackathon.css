@@ -326,4 +326,23 @@ opacity:0;
 }
 
 
+.text-container3{
+  padding-top: 5%;
+  margin: auto;
+  position: relative;
+align-items: center;
+  width: 80%;
 
+}
+
+.text-container3 .title_word{
+  font-size: 80px;
+  color:#fff;
+  text-align: center;
+}
+
+
+.schedule{
+  width: 100%;
+  height:100%;
+}
