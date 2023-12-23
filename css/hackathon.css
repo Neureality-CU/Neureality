@@ -125,6 +125,10 @@ text-shadow: 0 0 10px rgba(0,0,0,0.5);
   font-size: 80px;
 }
 
+.text-container .title_word2{
+  font-size: 30px;
+}
+
 .text-container .subtitle_word{
   margin-top:5%;
   margin-bottom:5%;
