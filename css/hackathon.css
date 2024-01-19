@@ -201,7 +201,7 @@ span1{
 }
 
 .text-container2{
-  display: flex;
+  display: block;
   position: relative;
 text-align: center;
 color: #ffffff;
