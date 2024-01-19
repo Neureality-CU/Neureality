@@ -3,8 +3,7 @@ margin: 0;
 padding: 0;
 font-family: 'TheGoodMonolith', sans-serif, 'JetBrains Mono', monospace;
 box-sizing: border-box;
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  overflow-y: scroll; /* Add vertical scrollbar */
+
 }
 
 
@@ -27,7 +26,7 @@ justify-content: space-between;
 }
 
 .logo{
-  width: 140px;
+  width: 20vw;
   display: flex;
   justify-content: space-between;
   margin: 2%;
@@ -455,7 +454,7 @@ a{
 
 
 
-card_sec2{
+.card_sec2{
   align-items: center;
   justify-content: center;
 
@@ -490,7 +489,7 @@ card_sec2{
 }
 
 
-card_sec2 .box_container .box2 img{
+.card_sec2 .box_container .box2 img{
   margin:auto;
 
 }
@@ -538,7 +537,12 @@ text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+
+  *{
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+  }
   .text-container .title_word{
   font-size: 3em;
     text-align: center;
@@ -752,7 +756,7 @@ card_sec2 .box_container .box2 img{
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .nav-links li:not(:first-child) {display: none;}
   .nav-links .icon {
     float: right;
@@ -761,7 +765,7 @@ card_sec2 .box_container .box2 img{
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .nav-links.responsive {position: relative;}
   .nav-links.responsive .icon {
     position: absolute;
