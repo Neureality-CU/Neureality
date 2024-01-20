@@ -215,6 +215,7 @@ text-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 .text-container .title_word{
   font-size: 80px;
+  font-weight: bold;
 }
 
 .text-container .subtitle_word{
@@ -581,7 +582,7 @@ text-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 .text-container .title_word2{
   font-size: 1.5em;
-
+font-family: "JetBrains Mono";
 }
 
 .text-container .subtitle_word{
