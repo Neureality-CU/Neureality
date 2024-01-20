@@ -176,6 +176,7 @@ color:#fff;
 cursor: pointer;
 position: relative;
 overflow: hidden;
+    font-weight: bold;
 }
 
 span1{
@@ -239,7 +240,7 @@ text-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 
 .box_container{
-  width:1100px;
+  width:1400px;
   margin-top:10%;
   display:flex;
   justify-content: space-between;
@@ -337,12 +338,13 @@ text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .box_container .box .descrip {
- font-size: 20px;
+ font-size: 18px;
   position: relative;
   top: 20px;
    opacity: 1;
    transition:0.5s;
   color:#fff;
+  font-family: "JetBrains Mono";
 }
 
 .box_container .box:hover .descrip {
@@ -540,11 +542,18 @@ a{
   text-align: left;
 }
 
-span.colortext_body{
-  font-family: "JetBrains Mono";
+span.colortext_h3{
   background: -webkit-linear-gradient(28deg, #7C83FD, #96BAFF,#7DEDFF,#88FFF7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "JetBrains Mono";
+}
+
+span.colortext_body{
+  background: -webkit-linear-gradient(28deg, #7C83FD, #96BAFF,#7DEDFF,#88FFF7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "JetBrains Mono";
 }
 
 .text-container4{
@@ -666,6 +675,7 @@ align-items: center;
   width:100%;
   margin-top:10%;
   display:flex;
+
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
