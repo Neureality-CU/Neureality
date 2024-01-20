@@ -525,7 +525,7 @@ a{
   margin-bottom: 50px;
 }
 
-.FAQ_Q, .FAQ_A {
+.FAQ_Q, .answer {
   font-family: "JetBrains Mono"; /* This will override the global setting */
 }
 
@@ -537,7 +537,7 @@ a{
 
 }
 
-.FAQ_A{
+.answer{
   font-size: 20px;
   text-align: left;
 }
@@ -554,6 +554,23 @@ span.colortext_body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "JetBrains Mono";
+}
+
+.faq-item .answer a {
+  color: #007bff;
+  background-size: 0% 100%;
+  transition: background-size 0.5s ease-out;
+  text-decoration: underline;
+  font-family: "JetBrains Mono";
+}
+
+.faq-item .answer a:hover {
+  background: linear-gradient(to right, #7C83FD, #96BAFF, #7DEDFF, #88FFF7);
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .text-container4{
