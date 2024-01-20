@@ -121,7 +121,7 @@ body{
 text-align: center;
 color: #ffffff;
 
-text-shadow: 0 0 10px rgba(0,0,0,0.5);
+/*text-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 }
 
 .text-container .title_word{
@@ -210,7 +210,7 @@ span1{
 text-align: center;
 color: #ffffff;
 
-text-shadow: 0 0 10px rgba(0,0,0,0.5);
+/*text-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 }
 
 .text-container .title_word{
@@ -439,7 +439,7 @@ text-align: center;
   margin-top:10%;
 color: #ffffff;
 
-text-shadow: 0 0 10px rgba(0,0,0,0.5);
+/*text-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 }
 
 .text-container3 .title_word{
@@ -573,6 +573,27 @@ span.colortext_body{
   -webkit-text-fill-color: transparent;
 }
 
+
+
+.title_link a {
+  font-size: 1.5em;
+  text-align: center;
+  color: #007bff;
+  background-size: 0% 100%;
+  transition: background-size 0.5s ease-out;
+  text-decoration: underline;
+  font-family: "JetBrains Mono";
+}
+
+.title_link a:hover {
+  background: linear-gradient(to right, #7C83FD, #96BAFF, #7DEDFF, #88FFF7);
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .text-container4{
   display: block;
   width: 50%;
@@ -581,7 +602,7 @@ span.colortext_body{
 text-align: center;
 color: #ffffff;
 
-text-shadow: 0 0 10px rgba(0,0,0,0.5);
+/*text-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 }
 
 
