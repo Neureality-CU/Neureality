@@ -527,6 +527,13 @@ a{
   width:100%;
 }
 
+.mission-item{
+  margin-top: 20px;
+  margin-bottom: 8px;
+  text-align: left;
+  font-family: "JetBrains Mono"; /* This will override the global setting */
+}
+
 .faq-item{
   text-align: left;
   margin-bottom: 50px;
