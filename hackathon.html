@@ -147,26 +147,37 @@
 			<h1 class="title_word">THE VISION</h1>
 		</div>
 		<!-- Start of Our Missions Section -->
-		<div style="display: flex; justify-content: space-around; padding: 20px;">
+		<div class="missions-container" style="display: flex; justify-content: space-around; padding: 20px;">
 			<!-- Mission Block 1: Professional Development -->
-			<div style="flex: 1; margin: 10px; padding: 10px; border: 1px solid #ddd;">
+			<div class="mission-block" style="margin: 10px; padding: 10px; border: 1px solid #ddd;">
 				<h3><span class="colortext_body">Professional Development</span></h3>
 				<p class="mission-item">Neureality is a platform for students to explore their passion in the neurotech and VR/AR industries. Through keynotes, workshops, and mentorship, we foster a community of learning and collaboration, connecting participants with peers, future start-up cofounders and seasoned veterans in the field. </p>
 			</div>
 
 			<!-- Mission Block 2: Hands-On Experience -->
-			<div style="flex: 1; margin: 10px; padding: 10px; border: 1px solid #ddd;">
+			<div class="mission-block" style="margin: 10px; padding: 10px; border: 1px solid #ddd;">
 				<h3><span class="colortext_body">Hands-On Experience</span></h3>
 				<p class="mission-item">The first-of-its-kind hackathon offers practical hands-on experience with both neurotech and VR/AR technologies. Participants create impactful projects with cut-edging gadgets, enhancing their skills and contributing to their professional portfolios.</p>
 			</div>
 
 			<!-- Mission Block 3: Knowledge Sharing -->
-			<div style="flex: 1; margin: 10px; padding: 10px; border: 1px solid #ddd;">
+			<div class="mission-block" style="margin: 10px; padding: 10px; border: 1px solid #ddd;">
 				<h3><span class="colortext_body">Build for the Future</span></h3>
 				<p class="mission-item">Your ideas and projects shape the future of our relationship with tech. Participants create new applications and solutions that can transform the way we interact with the digital and physical worlds. Our goal is to cultivate a forward-thinking mindset, where the boundaries of what's possible are constantly pushed forward.</p>
 			</div>
 		</div>
 	</div>
+
+	<style>
+		@media (max-width: 768px) {
+			.missions-container {
+				flex-direction: column;
+			}
+			.mission-block {
+				flex-basis: 100%;
+			}
+		}
+	</style>
 
 
 	<!-- End of Our Missions Section -->
