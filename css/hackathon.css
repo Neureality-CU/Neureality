@@ -108,6 +108,14 @@ body{
   height:100vh;
 }
 
+.landing2{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:20vh;
+}
+
 .landing .bg{
   position: absolute;
   top:0;
