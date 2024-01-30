@@ -119,8 +119,14 @@ margin: 0 auto;
   right: -45px;
 }
 
+.timeline {
+  font-family:'JetBrains Mono';
+}
 
-.table ach{
+table{
+  color: #c1c8c9;
+}
+th{
   color: #7DEDFF;
 
 }
@@ -129,8 +135,12 @@ margin: 0 auto;
   .timeline {
 margin: 0 auto;
   width: 100%;
+
 }
 
+  .timeline table{
+    font: 1em sans-serif;
+  }
   .timeline .title{
 font-size: 0.5em;
   }
