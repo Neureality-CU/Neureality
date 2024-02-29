@@ -114,6 +114,7 @@ body{
   justify-content: center;
   align-items: center;
   height:20vh;
+  margin-top:3%;
 }
 
 .landing .bg{
@@ -1108,8 +1109,15 @@ h3{
   display: block;
   text-decoration: none;
   color: #ffffff;
-
+}
 
 .footer1 h3{
 color: #96BAFF;
 }
+
+.box_container2 .box {
+  cursor: pointer;
+}
+
+
+
