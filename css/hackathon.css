@@ -1119,5 +1119,8 @@ color: #96BAFF;
   cursor: pointer;
 }
 
+.box_container .box {
+  cursor: pointer;
+}
 
 
